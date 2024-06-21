@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '17aee7e966ff04f01e95f2d62c1f9aa1';
+    const apiKey = config.apiKey;
     const apiUrl = `http://api.coinlayer.com/live?access_key=${apiKey}&symbols=BTC,ETH,LTC,XRP,BCH`;
 
     fetch(apiUrl)
