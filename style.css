@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9c9f1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: url('/images/static/21077059_6396816.svg') no-repeat center center/cover;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#prices {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.crypto {
+    margin: 1rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.crypto h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.crypto p {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin: 0.5rem 0;
+}
